@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{int a,b;
+char c;
+cout<<"ENTER THE DIGITS"<<endl;
+cin>>a>>b;
+cout<<"WHAT OPERATION DO YOU WANT TO PERFORM BETWEEN THE DIGITS"<<endl;
+cin>>c;
+switch(c){
+case '+' : cout<< a+b;break;
+case '-' : cout<< a-b;break;
+case '/' : cout<< a/b;break;
+case '*' : cout<< a*b;break;
+case '%' : cout<< a%b;break;
+defalut: cout <<"enter the valid opertation";
+}
+}
